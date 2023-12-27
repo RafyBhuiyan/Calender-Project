@@ -80,7 +80,7 @@ int main()
         k++;
     }
     //total number of days in that month
-    if(month == 1 && month == 3 && month == 5 && month == 7 && month == 8 && month == 10 && month == 12)
+    if(month == 1 || month == 3 || month == 5 || month == 7 || month == 8 || month == 10 || month == 12)
     {
         p=31;
     }
