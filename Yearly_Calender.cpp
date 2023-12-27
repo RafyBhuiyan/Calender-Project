@@ -84,7 +84,7 @@ void solve(int year,int month)
     {
         p=30;
     }
-    else if((month%4==0 && month%100 != 0) || month%400==0)
+    else if((year%4==0 && year%100 != 0) || year%400==0)
     {
         p=29;
     }
